@@ -1,0 +1,232 @@
+*{
+    margin:0;
+    /* background-color:#E3E7F1; */
+}
+.account-page{
+    background-color: #E3E7F1;
+   height: 100%;
+   width: 100%;
+   position: absolute;
+}
+.form-container{
+    background: #fff;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    margin:auto;
+    margin-top: 100px;
+    box-sizing: 0 0 20px 0px rgba(0);
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: #555;
+}
+.form-container span{
+    font-weight: bold;
+    padding: 0 10px;
+    color:#555;
+    width: 80px;
+    display: inline-block;
+}
+.form-btn{
+    display: inline-block;
+    cursor: pointer;
+    
+}
+.form-container form{
+    max-width: 245px;
+    padding: 0 20px;
+    position: absolute;
+    top: 100px;
+    transition: transform 1s;
+    
+}
+form input{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+
+}
+form .btn{
+    width: 109%;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+    height: 30px;   
+}
+#LoginForm{
+    left: -300px;
+}
+#RegForm{
+    left: 0;
+}
+#RegForm a{
+    font-size: 12px;
+}
+#indicator{
+    width: 100px;
+    border: none;
+    background-color: black;
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(100px);
+    transition: transform 1s;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right; 
+ 
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: #181616;
+}
+p{
+    color: #211414
+}
+.container-1{
+    margin: auto;   
+    padding-left: 25px;
+    background-color:#E3E7F1;
+    
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100vh;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2 img{
+    max-width: 50%;
+    padding: 50px 0;
+}
+ col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+ }
+ .col-3 img{
+    width: 100%;
+ }
+ .small{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right:25px;
+ }
+ .col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 50px;
+    margin-bottom: 50px;
+ }
+ .col-4 img{
+    width: 100%;
+ }
+ .title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+ }
+
+.all-products{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+.product{
+    overflow: hidden;
+    background-color: #cacaca;
+    color: rgb(15, 21, 21);
+    text-align: center;
+    width: 240px;
+    height: 340px;
+    padding: 20px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    margin: 2rem;
+    
+}
+.product:hover img{
+ scale: 1,1;
+}
+.product:hover {
+    box-shadow: 5px 15px  25px #9c9a9a;
+}
+.product img{
+        height:150px;
+        width: 150px;
+        margin: 1rem;
+        transition: all 0.3s;
+        border-radius: 5px;
+}
+.product a:hover{
+    transform: scale(1.1);
+}
+.product a:link ,.product a:visited{
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    text-decoration: none;
+    background-color: #181616;  
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem ;
+    transition: all 0.2s;
+    padding: 5px;
+}
+#mobile-h1{
+    text-align: center;
+    color: #0c0606;
+    font-size: x-large;
+}
+a{
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    text-decoration: none;
+    background-color: #181616;  
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem ;
+    transition: all 0.2s;
+    padding: 5px;
+}
+.cart-product{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    /* flex-direction:row; */
+}
+#cart-head{
+    text-align: center;
+    color: #0c0606;
+    font-size: x-large;
+    /* padding: 10px; */
+    margin-top: 40px;
+
+}
